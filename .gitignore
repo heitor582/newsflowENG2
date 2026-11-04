@@ -1,0 +1,9 @@
+node_modules/
+output/
+tmp/
+.DS_Store
+*.log
+
+# Notas locais de revisão e apresentação
+docs/validacao.md
+docs/roteiro-apresentacao.md

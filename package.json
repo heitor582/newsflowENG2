@@ -1,0 +1,22 @@
+{
+  "name": "newsflow-bdd",
+  "version": "1.0.0",
+  "private": true,
+  "description": "NewsFlow: quatro histórias de negócio verificadas com Cucumber.js",
+  "engines": {
+    "node": ">=22 <25"
+  },
+  "scripts": {
+    "test": "cucumber-js",
+    "test:dry": "cucumber-js --profile verificacao --dry-run",
+    "test:parallel": "cucumber-js --profile verificacao --parallel 2",
+    "test:random": "cucumber-js --profile verificacao --order random:20261103",
+    "test:smoke": "cucumber-js --profile verificacao --tags @smoke",
+    "test:estrutura": "node scripts/verificar-estrutura.js",
+    "test:dominio": "node --test tests/dominio.test.js",
+    "test:mutacoes": "node scripts/verificar-mutacoes.js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "12.2.0"
+  }
+}

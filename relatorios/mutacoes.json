@@ -1,0 +1,42 @@
+[
+  {
+    "nome": "RN01 perder o instante exato do salvamento",
+    "detectada": true,
+    "resumo": "55 scenarios (8 failed, 47 passed)"
+  },
+  {
+    "nome": "RN01 manter 21 versões",
+    "detectada": true,
+    "resumo": "55 scenarios (2 failed, 53 passed)"
+  },
+  {
+    "nome": "RN02 permitir aprovação pelo autor",
+    "detectada": true,
+    "resumo": "55 scenarios (1 failed, 54 passed)"
+  },
+  {
+    "nome": "RN03 rejeitar exatamente 15 minutos",
+    "detectada": true,
+    "resumo": "55 scenarios (1 failed, 54 passed)"
+  },
+  {
+    "nome": "RN03 aceitar terceiro reagendamento",
+    "detectada": true,
+    "resumo": "55 scenarios (1 failed, 54 passed)"
+  },
+  {
+    "nome": "RN03 rejeitar cancelamento exatamente a 5 minutos",
+    "detectada": true,
+    "resumo": "55 scenarios (1 failed, 54 passed)"
+  },
+  {
+    "nome": "RN04 duplicar público sobreposto",
+    "detectada": true,
+    "resumo": "55 scenarios (1 failed, 54 passed)"
+  },
+  {
+    "nome": "RN06 aceitar confirmação exatamente em 48 horas",
+    "detectada": true,
+    "resumo": "55 scenarios (1 failed, 54 passed)"
+  }
+]

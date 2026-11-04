@@ -1,0 +1,6136 @@
+[
+  {
+    "description": "  Como redatora\n  Quero recuperar cópias do conteúdo que escrevo\n  Para desfazer alterações indesejadas sem perder o histórico recente",
+    "elements": [
+      {
+        "description": "",
+        "id": "recuperar-o-conteúdo-do-rascunho;salvar-o-rascunho-a-cada-30-segundos",
+        "keyword": "Esquema do Cenário",
+        "line": 19,
+        "name": "Salvar o rascunho a cada 30 segundos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 225707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 13,
+            "name": "decorrem 0 segundos de trabalho no rascunho",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 14,
+            "name": "a edição permanece em rascunho",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 15,
+            "name": "existem 0 versões com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 635208
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@RN01",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 11
+          },
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@limite",
+            "line": 11
+          },
+          {
+            "name": "@CA01_1",
+            "line": 11
+          },
+          {
+            "name": "@CA01_2",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "recuperar-o-conteúdo-do-rascunho;salvar-o-rascunho-a-cada-30-segundos",
+        "keyword": "Esquema do Cenário",
+        "line": 20,
+        "name": "Salvar o rascunho a cada 30 segundos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 13,
+            "name": "decorrem 29 segundos de trabalho no rascunho",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 14,
+            "name": "a edição permanece em rascunho",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 15,
+            "name": "existem 0 versões com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 108416
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@RN01",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 11
+          },
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@limite",
+            "line": 11
+          },
+          {
+            "name": "@CA01_1",
+            "line": 11
+          },
+          {
+            "name": "@CA01_2",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "recuperar-o-conteúdo-do-rascunho;salvar-o-rascunho-a-cada-30-segundos",
+        "keyword": "Esquema do Cenário",
+        "line": 21,
+        "name": "Salvar o rascunho a cada 30 segundos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 13,
+            "name": "decorrem 30 segundos de trabalho no rascunho",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 14,
+            "name": "a edição permanece em rascunho",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 15,
+            "name": "existem 1 versões com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68166
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@RN01",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 11
+          },
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@limite",
+            "line": 11
+          },
+          {
+            "name": "@CA01_1",
+            "line": 11
+          },
+          {
+            "name": "@CA01_2",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "recuperar-o-conteúdo-do-rascunho;salvar-o-rascunho-a-cada-30-segundos",
+        "keyword": "Esquema do Cenário",
+        "line": 22,
+        "name": "Salvar o rascunho a cada 30 segundos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 13,
+            "name": "decorrem 31 segundos de trabalho no rascunho",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 14,
+            "name": "a edição permanece em rascunho",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6915
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 15,
+            "name": "existem 1 versões com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16334
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@RN01",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 11
+          },
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@limite",
+            "line": 11
+          },
+          {
+            "name": "@CA01_1",
+            "line": 11
+          },
+          {
+            "name": "@CA01_2",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "recuperar-o-conteúdo-do-rascunho;salvar-o-rascunho-a-cada-30-segundos",
+        "keyword": "Esquema do Cenário",
+        "line": 23,
+        "name": "Salvar o rascunho a cada 30 segundos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 13,
+            "name": "decorrem 59 segundos de trabalho no rascunho",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 14,
+            "name": "a edição permanece em rascunho",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 15,
+            "name": "existem 1 versões com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45334
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@RN01",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 11
+          },
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@limite",
+            "line": 11
+          },
+          {
+            "name": "@CA01_1",
+            "line": 11
+          },
+          {
+            "name": "@CA01_2",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "recuperar-o-conteúdo-do-rascunho;salvar-o-rascunho-a-cada-30-segundos",
+        "keyword": "Esquema do Cenário",
+        "line": 24,
+        "name": "Salvar o rascunho a cada 30 segundos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 13,
+            "name": "decorrem 60 segundos de trabalho no rascunho",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 14,
+            "name": "a edição permanece em rascunho",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 15,
+            "name": "existem 2 versões com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 72666
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@RN01",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 11
+          },
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@limite",
+            "line": 11
+          },
+          {
+            "name": "@CA01_1",
+            "line": 11
+          },
+          {
+            "name": "@CA01_2",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "recuperar-o-conteúdo-do-rascunho;salvar-mesmo-quando-a-redatora-continua-escrevendo",
+        "keyword": "Cenário",
+        "line": 27,
+        "name": "Salvar mesmo quando a redatora continua escrevendo",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 28,
+            "name": "que a redatora altera o corpo para \"Texto em andamento\" no segundo 29",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 29,
+            "name": "decorre mais 1 segundo de trabalho no rascunho",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 30,
+            "name": "existe a versão 1 com o corpo \"Texto em andamento\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20291
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@RN01",
+            "line": 2
+          },
+          {
+            "name": "@alternativa",
+            "line": 26
+          },
+          {
+            "name": "@DEC01",
+            "line": 26
+          },
+          {
+            "name": "@CA01_1",
+            "line": 26
+          },
+          {
+            "name": "@CA01_2",
+            "line": 26
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "recuperar-o-conteúdo-do-rascunho;reter-somente-as-20-versões-mais-recentes",
+        "keyword": "Esquema do Cenário",
+        "line": 39,
+        "name": "Reter somente as 20 versões mais recentes",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 34,
+            "name": "ocorrem 19 salvamentos automáticos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 35,
+            "name": "permanecem 19 versões numeradas de 1 até 19",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@RN01",
+            "line": 2
+          },
+          {
+            "name": "@limite",
+            "line": 32
+          },
+          {
+            "name": "@CA01_3",
+            "line": 32
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "recuperar-o-conteúdo-do-rascunho;reter-somente-as-20-versões-mais-recentes",
+        "keyword": "Esquema do Cenário",
+        "line": 40,
+        "name": "Reter somente as 20 versões mais recentes",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 34,
+            "name": "ocorrem 20 salvamentos automáticos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 35,
+            "name": "permanecem 20 versões numeradas de 1 até 20",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13166
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@RN01",
+            "line": 2
+          },
+          {
+            "name": "@limite",
+            "line": 32
+          },
+          {
+            "name": "@CA01_3",
+            "line": 32
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "recuperar-o-conteúdo-do-rascunho;reter-somente-as-20-versões-mais-recentes",
+        "keyword": "Esquema do Cenário",
+        "line": 41,
+        "name": "Reter somente as 20 versões mais recentes",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14334
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 34,
+            "name": "ocorrem 21 salvamentos automáticos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 35,
+            "name": "permanecem 20 versões numeradas de 2 até 21",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18916
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@RN01",
+            "line": 2
+          },
+          {
+            "name": "@limite",
+            "line": 32
+          },
+          {
+            "name": "@CA01_3",
+            "line": 32
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "recuperar-o-conteúdo-do-rascunho;restaurar-sem-apagar-as-versões-posteriores",
+        "keyword": "Cenário",
+        "line": 44,
+        "name": "Restaurar sem apagar as versões posteriores",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30250
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "numero",
+                      "titulo",
+                      "corpo",
+                      "capa"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "1",
+                      "Título 1",
+                      "Texto original",
+                      "capa-1.png"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "2",
+                      "Título 2",
+                      "Texto revisado",
+                      "capa-2.png"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "3",
+                      "Título 3",
+                      "Texto final",
+                      "capa-3.png"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Dado ",
+            "line": 45,
+            "name": "que existem as seguintes versões salvas",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 336666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 50,
+            "name": "a redatora restaura a versão 1",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 51,
+            "name": "a mensagem é \"Versão restaurada\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 52,
+            "name": "o corpo atual é \"Texto original\" e a nova versão é a 4",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:61"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 53,
+            "name": "o título restaurado é \"Título 1\" e a capa é \"capa-1.png\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 54,
+            "name": "as versões 2 e 3 continuam com seus conteúdos anteriores",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 54292
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@RN01",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 43
+          },
+          {
+            "name": "@CA01_4",
+            "line": 43
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "recuperar-o-conteúdo-do-rascunho;recusar-uma-versão-indisponível",
+        "keyword": "Esquema do Cenário",
+        "line": 65,
+        "name": "Recusar uma versão indisponível",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 58,
+            "name": "que já ocorreram 21 salvamentos automáticos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 59,
+            "name": "a redatora restaura a versão 1",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17540
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 60,
+            "name": "a mensagem é \"Versão indisponível para restauração\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 61,
+            "name": "o conteúdo e as versões permanecem inalterados",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15084
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@RN01",
+            "line": 2
+          },
+          {
+            "name": "@excecao",
+            "line": 56
+          },
+          {
+            "name": "@CA01_5",
+            "line": 56
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "recuperar-o-conteúdo-do-rascunho;recusar-uma-versão-indisponível",
+        "keyword": "Esquema do Cenário",
+        "line": 66,
+        "name": "Recusar uma versão indisponível",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 58,
+            "name": "que já ocorreram 21 salvamentos automáticos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:85"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8790
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 59,
+            "name": "a redatora restaura a versão 99",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16165
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 60,
+            "name": "a mensagem é \"Versão indisponível para restauração\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 61,
+            "name": "o conteúdo e as versões permanecem inalterados",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8874
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@RN01",
+            "line": 2
+          },
+          {
+            "name": "@excecao",
+            "line": 56
+          },
+          {
+            "name": "@CA01_5",
+            "line": 56
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "recuperar-o-conteúdo-do-rascunho",
+    "line": 3,
+    "keyword": "Funcionalidade",
+    "name": "Recuperar o conteúdo do rascunho",
+    "tags": [
+      {
+        "name": "@US01",
+        "line": 2
+      },
+      {
+        "name": "@RN01",
+        "line": 2
+      }
+    ],
+    "uri": "features/us01-rascunho.feature"
+  },
+  {
+    "description": "  Como revisora editorial\n  Quero aprovar conteúdo de outra pessoa ou devolvê-lo com orientação\n  Para impedir a distribuição de uma edição sem revisão independente",
+    "elements": [
+      {
+        "description": "",
+        "id": "liberar-apenas-conteúdo-revisado;permitir-somente-aprovação-independente-por-revisor",
+        "keyword": "Esquema do Cenário",
+        "line": 19,
+        "name": "Permitir somente aprovação independente por revisor",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 13,
+            "name": "a pessoa \"outra\" com papel \"revisor\" aprova a edição",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 14,
+            "name": "a mensagem é \"Edição aprovada\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 15,
+            "name": "a situação editorial é \"aprovada\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US02",
+            "line": 2
+          },
+          {
+            "name": "@RN02",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 11
+          },
+          {
+            "name": "@excecao",
+            "line": 11
+          },
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@CA02_1",
+            "line": 11
+          },
+          {
+            "name": "@CA02_2",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "liberar-apenas-conteúdo-revisado;permitir-somente-aprovação-independente-por-revisor",
+        "keyword": "Esquema do Cenário",
+        "line": 20,
+        "name": "Permitir somente aprovação independente por revisor",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 13,
+            "name": "a pessoa \"autora\" com papel \"revisor\" aprova a edição",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 14,
+            "name": "a mensagem é \"Autor não pode avaliar a própria edição\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 15,
+            "name": "a situação editorial é \"rascunho\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7625
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US02",
+            "line": 2
+          },
+          {
+            "name": "@RN02",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 11
+          },
+          {
+            "name": "@excecao",
+            "line": 11
+          },
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@CA02_1",
+            "line": 11
+          },
+          {
+            "name": "@CA02_2",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "liberar-apenas-conteúdo-revisado;permitir-somente-aprovação-independente-por-revisor",
+        "keyword": "Esquema do Cenário",
+        "line": 21,
+        "name": "Permitir somente aprovação independente por revisor",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 13,
+            "name": "a pessoa \"outra\" com papel \"gestor\" aprova a edição",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 14,
+            "name": "a mensagem é \"Somente revisor pode avaliar a edição\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 15,
+            "name": "a situação editorial é \"rascunho\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7375
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US02",
+            "line": 2
+          },
+          {
+            "name": "@RN02",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 11
+          },
+          {
+            "name": "@excecao",
+            "line": 11
+          },
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@CA02_1",
+            "line": 11
+          },
+          {
+            "name": "@CA02_2",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "liberar-apenas-conteúdo-revisado;exigir-comentário-para-devolver-a-edição",
+        "keyword": "Esquema do Cenário",
+        "line": 33,
+        "name": "Exigir comentário para devolver a edição",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 25,
+            "name": "que a edição está aprovada por um revisor independente",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 26,
+            "name": "o revisor reprova a edição com comentário \"Corrigir a data\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 27,
+            "name": "a mensagem é \"Edição devolvida ao rascunho\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 28,
+            "name": "a situação editorial é \"rascunho\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 29,
+            "name": "o comentário registrado é \"Corrigir a data\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53415
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US02",
+            "line": 2
+          },
+          {
+            "name": "@RN02",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 23
+          },
+          {
+            "name": "@excecao",
+            "line": 23
+          },
+          {
+            "name": "@CA02_3",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "liberar-apenas-conteúdo-revisado;exigir-comentário-para-devolver-a-edição",
+        "keyword": "Esquema do Cenário",
+        "line": 34,
+        "name": "Exigir comentário para devolver a edição",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 25,
+            "name": "que a edição está aprovada por um revisor independente",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 26,
+            "name": "o revisor reprova a edição com comentário \"\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 27,
+            "name": "a mensagem é \"Comentário de reprovação obrigatório\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7165
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 28,
+            "name": "a situação editorial é \"aprovada\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 29,
+            "name": "o comentário registrado é \"nenhum\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7916
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US02",
+            "line": 2
+          },
+          {
+            "name": "@RN02",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 23
+          },
+          {
+            "name": "@excecao",
+            "line": 23
+          },
+          {
+            "name": "@CA02_3",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "liberar-apenas-conteúdo-revisado;exigir-comentário-para-devolver-a-edição",
+        "keyword": "Esquema do Cenário",
+        "line": 35,
+        "name": "Exigir comentário para devolver a edição",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6584
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 25,
+            "name": "que a edição está aprovada por um revisor independente",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 26,
+            "name": "o revisor reprova a edição com comentário \"somente espaços\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:99"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 27,
+            "name": "a mensagem é \"Comentário de reprovação obrigatório\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 28,
+            "name": "a situação editorial é \"aprovada\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 29,
+            "name": "o comentário registrado é \"nenhum\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:102"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6042
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US02",
+            "line": 2
+          },
+          {
+            "name": "@RN02",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 23
+          },
+          {
+            "name": "@excecao",
+            "line": 23
+          },
+          {
+            "name": "@CA02_3",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "liberar-apenas-conteúdo-revisado;retirar-a-aprovação-quando-o-conteúdo-muda",
+        "keyword": "Cenário",
+        "line": 38,
+        "name": "Retirar a aprovação quando o conteúdo muda",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 39,
+            "name": "que a edição está aprovada por um revisor independente",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 40,
+            "name": "a redatora altera o corpo para \"Oferta atualizada\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 41,
+            "name": "a mensagem é \"Conteúdo atualizado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 42,
+            "name": "a situação editorial é \"rascunho\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 43,
+            "name": "não existe aprovação vigente para o corpo \"Oferta atualizada\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:104"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29625
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US02",
+            "line": 2
+          },
+          {
+            "name": "@RN02",
+            "line": 2
+          },
+          {
+            "name": "@alternativa",
+            "line": 37
+          },
+          {
+            "name": "@DEC03",
+            "line": 37
+          },
+          {
+            "name": "@CA02_4",
+            "line": 37
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "liberar-apenas-conteúdo-revisado;impedir-envio-imediato-sem-aprovação-vigente",
+        "keyword": "Esquema do Cenário",
+        "line": 55,
+        "name": "Impedir envio imediato sem aprovação vigente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 47,
+            "name": "que a condição da edição é \"rascunho\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 48,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 127833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 49,
+            "name": "a gestora solicita o envio imediato da edição",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:117"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42040
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 50,
+            "name": "a mensagem é \"Edição precisa de aprovação vigente\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 51,
+            "name": "são gerados 0 e-mails de newsletter",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28374
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US02",
+            "line": 2
+          },
+          {
+            "name": "@RN02",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 45
+          },
+          {
+            "name": "@excecao",
+            "line": 45
+          },
+          {
+            "name": "@CA02_5",
+            "line": 45
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "liberar-apenas-conteúdo-revisado;impedir-envio-imediato-sem-aprovação-vigente",
+        "keyword": "Esquema do Cenário",
+        "line": 56,
+        "name": "Impedir envio imediato sem aprovação vigente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 47,
+            "name": "que a condição da edição é \"aprovada\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 48,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 49,
+            "name": "a gestora solicita o envio imediato da edição",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:117"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 50,
+            "name": "a mensagem é \"Envio realizado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 51,
+            "name": "são gerados 2 e-mails de newsletter",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US02",
+            "line": 2
+          },
+          {
+            "name": "@RN02",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 45
+          },
+          {
+            "name": "@excecao",
+            "line": 45
+          },
+          {
+            "name": "@CA02_5",
+            "line": 45
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "liberar-apenas-conteúdo-revisado;impedir-envio-imediato-sem-aprovação-vigente",
+        "keyword": "Esquema do Cenário",
+        "line": 57,
+        "name": "Impedir envio imediato sem aprovação vigente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7834
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 47,
+            "name": "que a condição da edição é \"alterada após aprovar\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 48,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23665
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 49,
+            "name": "a gestora solicita o envio imediato da edição",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:117"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 50,
+            "name": "a mensagem é \"Edição precisa de aprovação vigente\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 51,
+            "name": "são gerados 0 e-mails de newsletter",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6374
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US02",
+            "line": 2
+          },
+          {
+            "name": "@RN02",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 45
+          },
+          {
+            "name": "@excecao",
+            "line": 45
+          },
+          {
+            "name": "@CA02_5",
+            "line": 45
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "liberar-apenas-conteúdo-revisado;liberar-a-edição-depois-da-correção-solicitada",
+        "keyword": "Cenário",
+        "line": 60,
+        "name": "Liberar a edição depois da correção solicitada",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Texto inicial\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 61,
+            "name": "que o revisor devolveu a edição com o comentário \"Corrigir a data\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:75"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 62,
+            "name": "a redatora corrigiu o corpo para \"Evento em 10 de novembro\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 63,
+            "name": "a pessoa \"outra\" com papel \"revisor\" aprova a edição",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:87"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 64,
+            "name": "a mensagem é \"Edição aprovada\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 65,
+            "name": "a situação editorial é \"aprovada\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7459
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 66,
+            "name": "a aprovação se refere ao corpo \"Evento em 10 de novembro\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:81"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14958
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US02",
+            "line": 2
+          },
+          {
+            "name": "@RN02",
+            "line": 2
+          },
+          {
+            "name": "@alternativa",
+            "line": 59
+          },
+          {
+            "name": "@CA02_1",
+            "line": 59
+          },
+          {
+            "name": "@CA02_3",
+            "line": 59
+          },
+          {
+            "name": "@CA02_4",
+            "line": 59
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "liberar-apenas-conteúdo-revisado",
+    "line": 3,
+    "keyword": "Funcionalidade",
+    "name": "Liberar apenas conteúdo revisado",
+    "tags": [
+      {
+        "name": "@US02",
+        "line": 2
+      },
+      {
+        "name": "@RN02",
+        "line": 2
+      }
+    ],
+    "uri": "features/us02-aprovacao.feature"
+  },
+  {
+    "description": "  Como gestora de comunicação\n  Quero programar uma edição aprovada para os segmentos relevantes\n  Para alcançar esse público no horário escolhido sem duplicar mensagens",
+    "elements": [
+      {
+        "description": "",
+        "id": "programar-o-envio-para-o-público-escolhido;respeitar-a-antecedência-mínima-e-a-aprovação",
+        "keyword": "Esquema do Cenário",
+        "line": 22,
+        "name": "Respeitar a antecedência mínima e a aprovação",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Novidades da Vértice\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 14,
+            "name": "que a condição da edição é \"aprovada\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 15,
+            "name": "a gestora agenda para daqui a 899 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 16,
+            "name": "a mensagem é \"Envio exige antecedência mínima de 15 minutos\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 17,
+            "name": "existem 0 disparos agendados",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 18,
+            "name": "o horário de envio em São Paulo é \"não agendado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:127"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70708
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 12
+          },
+          {
+            "name": "@excecao",
+            "line": 12
+          },
+          {
+            "name": "@smoke",
+            "line": 12
+          },
+          {
+            "name": "@limite",
+            "line": 12
+          },
+          {
+            "name": "@RN02",
+            "line": 12
+          },
+          {
+            "name": "@CA03_1",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "programar-o-envio-para-o-público-escolhido;respeitar-a-antecedência-mínima-e-a-aprovação",
+        "keyword": "Esquema do Cenário",
+        "line": 23,
+        "name": "Respeitar a antecedência mínima e a aprovação",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Novidades da Vértice\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 14,
+            "name": "que a condição da edição é \"aprovada\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 15,
+            "name": "a gestora agenda para daqui a 900 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 16,
+            "name": "a mensagem é \"Envio agendado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 17,
+            "name": "existem 1 disparos agendados",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 18,
+            "name": "o horário de envio em São Paulo é \"03/11/2026 09:15:00\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:127"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24237333
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 12
+          },
+          {
+            "name": "@excecao",
+            "line": 12
+          },
+          {
+            "name": "@smoke",
+            "line": 12
+          },
+          {
+            "name": "@limite",
+            "line": 12
+          },
+          {
+            "name": "@RN02",
+            "line": 12
+          },
+          {
+            "name": "@CA03_1",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "programar-o-envio-para-o-público-escolhido;respeitar-a-antecedência-mínima-e-a-aprovação",
+        "keyword": "Esquema do Cenário",
+        "line": 24,
+        "name": "Respeitar a antecedência mínima e a aprovação",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Novidades da Vértice\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18334
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 14,
+            "name": "que a condição da edição é \"aprovada\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10915
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 15,
+            "name": "a gestora agenda para daqui a 901 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 16,
+            "name": "a mensagem é \"Envio agendado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7790
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 17,
+            "name": "existem 1 disparos agendados",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 18,
+            "name": "o horário de envio em São Paulo é \"03/11/2026 09:15:01\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:127"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 122249
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 12
+          },
+          {
+            "name": "@excecao",
+            "line": 12
+          },
+          {
+            "name": "@smoke",
+            "line": 12
+          },
+          {
+            "name": "@limite",
+            "line": 12
+          },
+          {
+            "name": "@RN02",
+            "line": 12
+          },
+          {
+            "name": "@CA03_1",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "programar-o-envio-para-o-público-escolhido;respeitar-a-antecedência-mínima-e-a-aprovação",
+        "keyword": "Esquema do Cenário",
+        "line": 25,
+        "name": "Respeitar a antecedência mínima e a aprovação",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Novidades da Vértice\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 14,
+            "name": "que a condição da edição é \"rascunho\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 15,
+            "name": "a gestora agenda para daqui a 1800 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7084
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 16,
+            "name": "a mensagem é \"Edição precisa de aprovação vigente\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9959
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 17,
+            "name": "existem 0 disparos agendados",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 18,
+            "name": "o horário de envio em São Paulo é \"não agendado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:127"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6458
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 12
+          },
+          {
+            "name": "@excecao",
+            "line": 12
+          },
+          {
+            "name": "@smoke",
+            "line": 12
+          },
+          {
+            "name": "@limite",
+            "line": 12
+          },
+          {
+            "name": "@RN02",
+            "line": 12
+          },
+          {
+            "name": "@CA03_1",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "programar-o-envio-para-o-público-escolhido;respeitar-a-antecedência-mínima-e-a-aprovação",
+        "keyword": "Esquema do Cenário",
+        "line": 26,
+        "name": "Respeitar a antecedência mínima e a aprovação",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Novidades da Vértice\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 14,
+            "name": "que a condição da edição é \"alterada após aprovar\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 15,
+            "name": "a gestora agenda para daqui a 1800 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 16,
+            "name": "a mensagem é \"Edição precisa de aprovação vigente\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 17,
+            "name": "existem 0 disparos agendados",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 18,
+            "name": "o horário de envio em São Paulo é \"não agendado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:127"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 12
+          },
+          {
+            "name": "@excecao",
+            "line": 12
+          },
+          {
+            "name": "@smoke",
+            "line": 12
+          },
+          {
+            "name": "@limite",
+            "line": 12
+          },
+          {
+            "name": "@RN02",
+            "line": 12
+          },
+          {
+            "name": "@CA03_1",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "programar-o-envio-para-o-público-escolhido;exigir-de-um-a-cinco-segmentos-com-público",
+        "keyword": "Esquema do Cenário",
+        "line": 38,
+        "name": "Exigir de um a cinco segmentos com público",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Novidades da Vértice\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 30,
+            "name": "que a edição está aprovada por um revisor independente",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 31,
+            "name": "a gestora escolhe 0 segmentos distintos com 0 segmentos vazios",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 198417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 32,
+            "name": "a gestora agenda para daqui a 1800 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 33,
+            "name": "a mensagem é \"Escolha de 1 a 5 segmentos\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 34,
+            "name": "existem 0 disparos agendados",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6750
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 28
+          },
+          {
+            "name": "@excecao",
+            "line": 28
+          },
+          {
+            "name": "@limite",
+            "line": 28
+          },
+          {
+            "name": "@CA03_2",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "programar-o-envio-para-o-público-escolhido;exigir-de-um-a-cinco-segmentos-com-público",
+        "keyword": "Esquema do Cenário",
+        "line": 39,
+        "name": "Exigir de um a cinco segmentos com público",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Novidades da Vértice\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 30,
+            "name": "que a edição está aprovada por um revisor independente",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 31,
+            "name": "a gestora escolhe 1 segmentos distintos com 0 segmentos vazios",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 32,
+            "name": "a gestora agenda para daqui a 1800 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 33,
+            "name": "a mensagem é \"Envio agendado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 34,
+            "name": "existem 1 disparos agendados",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7875
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 28
+          },
+          {
+            "name": "@excecao",
+            "line": 28
+          },
+          {
+            "name": "@limite",
+            "line": 28
+          },
+          {
+            "name": "@CA03_2",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "programar-o-envio-para-o-público-escolhido;exigir-de-um-a-cinco-segmentos-com-público",
+        "keyword": "Esquema do Cenário",
+        "line": 40,
+        "name": "Exigir de um a cinco segmentos com público",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Novidades da Vértice\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 30,
+            "name": "que a edição está aprovada por um revisor independente",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 31,
+            "name": "a gestora escolhe 5 segmentos distintos com 0 segmentos vazios",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 32,
+            "name": "a gestora agenda para daqui a 1800 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 33,
+            "name": "a mensagem é \"Envio agendado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 34,
+            "name": "existem 1 disparos agendados",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5915
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 28
+          },
+          {
+            "name": "@excecao",
+            "line": 28
+          },
+          {
+            "name": "@limite",
+            "line": 28
+          },
+          {
+            "name": "@CA03_2",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "programar-o-envio-para-o-público-escolhido;exigir-de-um-a-cinco-segmentos-com-público",
+        "keyword": "Esquema do Cenário",
+        "line": 41,
+        "name": "Exigir de um a cinco segmentos com público",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Novidades da Vértice\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13042
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 30,
+            "name": "que a edição está aprovada por um revisor independente",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12084
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 31,
+            "name": "a gestora escolhe 6 segmentos distintos com 0 segmentos vazios",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 32,
+            "name": "a gestora agenda para daqui a 1800 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 33,
+            "name": "a mensagem é \"Escolha de 1 a 5 segmentos\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 34,
+            "name": "existem 0 disparos agendados",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7584
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 28
+          },
+          {
+            "name": "@excecao",
+            "line": 28
+          },
+          {
+            "name": "@limite",
+            "line": 28
+          },
+          {
+            "name": "@CA03_2",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "programar-o-envio-para-o-público-escolhido;exigir-de-um-a-cinco-segmentos-com-público",
+        "keyword": "Esquema do Cenário",
+        "line": 42,
+        "name": "Exigir de um a cinco segmentos com público",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Novidades da Vértice\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7834
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 30,
+            "name": "que a edição está aprovada por um revisor independente",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 31,
+            "name": "a gestora escolhe 1 segmentos distintos com 1 segmentos vazios",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 32,
+            "name": "a gestora agenda para daqui a 1800 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 33,
+            "name": "a mensagem é \"Segmento sem assinantes ativos\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 34,
+            "name": "existem 0 disparos agendados",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6542
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 28
+          },
+          {
+            "name": "@excecao",
+            "line": 28
+          },
+          {
+            "name": "@limite",
+            "line": 28
+          },
+          {
+            "name": "@CA03_2",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "programar-o-envio-para-o-público-escolhido;exigir-de-um-a-cinco-segmentos-com-público",
+        "keyword": "Esquema do Cenário",
+        "line": 43,
+        "name": "Exigir de um a cinco segmentos com público",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Novidades da Vértice\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 30,
+            "name": "que a edição está aprovada por um revisor independente",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:98"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 31,
+            "name": "a gestora escolhe 5 segmentos distintos com 1 segmentos vazios",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:130"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 32,
+            "name": "a gestora agenda para daqui a 1800 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 33,
+            "name": "a mensagem é \"Segmento sem assinantes ativos\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 34,
+            "name": "existem 0 disparos agendados",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:123"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6167
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 28
+          },
+          {
+            "name": "@excecao",
+            "line": 28
+          },
+          {
+            "name": "@limite",
+            "line": 28
+          },
+          {
+            "name": "@CA03_2",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "programar-o-envio-para-o-público-escolhido;contar-apenas-reagendamentos-aceitos",
+        "keyword": "Esquema do Cenário",
+        "line": 54,
+        "name": "Contar apenas reagendamentos aceitos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Novidades da Vértice\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6790
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 47,
+            "name": "que existe um disparo com 0 reagendamentos anteriores",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:133"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 199167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 48,
+            "name": "a gestora reagenda para daqui a 900 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32040
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 49,
+            "name": "a mensagem é \"Envio reagendado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 50,
+            "name": "o disparo registra 1 reagendamentos e horário \"03/11/2026 09:15:00\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:142"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128584
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@limite",
+            "line": 45
+          },
+          {
+            "name": "@excecao",
+            "line": 45
+          },
+          {
+            "name": "@CA03_3",
+            "line": 45
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "programar-o-envio-para-o-público-escolhido;contar-apenas-reagendamentos-aceitos",
+        "keyword": "Esquema do Cenário",
+        "line": 55,
+        "name": "Contar apenas reagendamentos aceitos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Novidades da Vértice\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 47,
+            "name": "que existe um disparo com 1 reagendamentos anteriores",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:133"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23957
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 48,
+            "name": "a gestora reagenda para daqui a 900 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 49,
+            "name": "a mensagem é \"Envio reagendado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9040
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 50,
+            "name": "o disparo registra 2 reagendamentos e horário \"03/11/2026 09:15:00\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:142"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128708
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@limite",
+            "line": 45
+          },
+          {
+            "name": "@excecao",
+            "line": 45
+          },
+          {
+            "name": "@CA03_3",
+            "line": 45
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "programar-o-envio-para-o-público-escolhido;contar-apenas-reagendamentos-aceitos",
+        "keyword": "Esquema do Cenário",
+        "line": 56,
+        "name": "Contar apenas reagendamentos aceitos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Novidades da Vértice\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 47,
+            "name": "que existe um disparo com 2 reagendamentos anteriores",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:133"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 48,
+            "name": "a gestora reagenda para daqui a 900 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 49,
+            "name": "a mensagem é \"Limite de 2 reagendamentos atingido\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 50,
+            "name": "o disparo registra 2 reagendamentos e horário \"03/11/2026 10:02:00\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:142"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85666
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@limite",
+            "line": 45
+          },
+          {
+            "name": "@excecao",
+            "line": 45
+          },
+          {
+            "name": "@CA03_3",
+            "line": 45
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "programar-o-envio-para-o-público-escolhido;contar-apenas-reagendamentos-aceitos",
+        "keyword": "Esquema do Cenário",
+        "line": 57,
+        "name": "Contar apenas reagendamentos aceitos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Novidades da Vértice\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 47,
+            "name": "que existe um disparo com 1 reagendamentos anteriores",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:133"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 48,
+            "name": "a gestora reagenda para daqui a 899 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:139"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 49,
+            "name": "a mensagem é \"Envio exige antecedência mínima de 15 minutos\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 50,
+            "name": "o disparo registra 1 reagendamentos e horário \"03/11/2026 10:01:00\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:142"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 177249
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@limite",
+            "line": 45
+          },
+          {
+            "name": "@excecao",
+            "line": 45
+          },
+          {
+            "name": "@CA03_3",
+            "line": 45
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "programar-o-envio-para-o-público-escolhido;cancelar-até-cinco-minutos-antes-do-envio",
+        "keyword": "Esquema do Cenário",
+        "line": 69,
+        "name": "Cancelar até cinco minutos antes do envio",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Novidades da Vértice\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 61,
+            "name": "que existe um disparo com 0 reagendamentos anteriores",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:133"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 62,
+            "name": "faltam 301 segundos para o horário marcado",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:146"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 63,
+            "name": "a gestora cancela o disparo",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19959
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 64,
+            "name": "a mensagem é \"Agendamento cancelado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 65,
+            "name": "a situação do disparo é \"cancelado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:150"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11957
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@limite",
+            "line": 59
+          },
+          {
+            "name": "@excecao",
+            "line": 59
+          },
+          {
+            "name": "@CA03_4",
+            "line": 59
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "programar-o-envio-para-o-público-escolhido;cancelar-até-cinco-minutos-antes-do-envio",
+        "keyword": "Esquema do Cenário",
+        "line": 70,
+        "name": "Cancelar até cinco minutos antes do envio",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Novidades da Vértice\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 61,
+            "name": "que existe um disparo com 0 reagendamentos anteriores",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:133"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 62,
+            "name": "faltam 300 segundos para o horário marcado",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:146"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 63,
+            "name": "a gestora cancela o disparo",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 64,
+            "name": "a mensagem é \"Agendamento cancelado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 65,
+            "name": "a situação do disparo é \"cancelado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:150"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6624
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@limite",
+            "line": 59
+          },
+          {
+            "name": "@excecao",
+            "line": 59
+          },
+          {
+            "name": "@CA03_4",
+            "line": 59
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "programar-o-envio-para-o-público-escolhido;cancelar-até-cinco-minutos-antes-do-envio",
+        "keyword": "Esquema do Cenário",
+        "line": 71,
+        "name": "Cancelar até cinco minutos antes do envio",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Novidades da Vértice\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7959
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 61,
+            "name": "que existe um disparo com 0 reagendamentos anteriores",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:133"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 62,
+            "name": "faltam 299 segundos para o horário marcado",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:146"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 63,
+            "name": "a gestora cancela o disparo",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:149"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 64,
+            "name": "a mensagem é \"Cancelamento exige ao menos 5 minutos de antecedência\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 65,
+            "name": "a situação do disparo é \"agendado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:150"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7875
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@limite",
+            "line": 59
+          },
+          {
+            "name": "@excecao",
+            "line": 59
+          },
+          {
+            "name": "@CA03_4",
+            "line": 59
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "programar-o-envio-para-o-público-escolhido;entregar-uma-vez-apenas-quando-o-disparo-permanece-agendado",
+        "keyword": "Esquema do Cenário",
+        "line": 83,
+        "name": "Entregar uma vez apenas quando o disparo permanece agendado",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Novidades da Vértice\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7915
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 75,
+            "name": "que a edição aprovada está agendada para os segmentos com Ana e Bruno e com Ana e Carla",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:151"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 76,
+            "name": "a situação do envio antes do horário marcado é \"agendado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:159"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 77,
+            "name": "chega o horário programado para o disparo",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:158"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 78,
+            "name": "Ana, Bruno e Carla recebem 1 e-mails de newsletter cada",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:163"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 79,
+            "name": "o disparo termina \"enviado\" com link de descadastro em cada mensagem enviada",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:167"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 168917
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 73
+          },
+          {
+            "name": "@alternativa",
+            "line": 73
+          },
+          {
+            "name": "@RN06",
+            "line": 73
+          },
+          {
+            "name": "@CA03_4",
+            "line": 73
+          },
+          {
+            "name": "@CA03_5",
+            "line": 73
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "programar-o-envio-para-o-público-escolhido;entregar-uma-vez-apenas-quando-o-disparo-permanece-agendado",
+        "keyword": "Esquema do Cenário",
+        "line": 84,
+        "name": "Entregar uma vez apenas quando o disparo permanece agendado",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que existe uma edição em rascunho com o corpo \"Novidades da Vértice\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o segmento \"Clientes Premium\" contém 2 assinantes ativos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 75,
+            "name": "que a edição aprovada está agendada para os segmentos com Ana e Bruno e com Ana e Carla",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:151"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 76,
+            "name": "a situação do envio antes do horário marcado é \"cancelado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:159"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 77,
+            "name": "chega o horário programado para o disparo",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:158"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 78,
+            "name": "Ana, Bruno e Carla recebem 0 e-mails de newsletter cada",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:163"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 79,
+            "name": "o disparo termina \"cancelado\" com link de descadastro em cada mensagem enviada",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:167"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8249
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US03",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 73
+          },
+          {
+            "name": "@alternativa",
+            "line": 73
+          },
+          {
+            "name": "@RN06",
+            "line": 73
+          },
+          {
+            "name": "@CA03_4",
+            "line": 73
+          },
+          {
+            "name": "@CA03_5",
+            "line": 73
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "programar-o-envio-para-o-público-escolhido",
+    "line": 3,
+    "keyword": "Funcionalidade",
+    "name": "Programar o envio para o público escolhido",
+    "tags": [
+      {
+        "name": "@US03",
+        "line": 2
+      },
+      {
+        "name": "@RN03",
+        "line": 2
+      },
+      {
+        "name": "@RN04",
+        "line": 2
+      }
+    ],
+    "uri": "features/us03-agendamento.feature"
+  },
+  {
+    "description": "  Como assinante\n  Quero sair imediatamente da lista e confirmar qualquer retorno\n  Para receber newsletters somente enquanto desejo",
+    "elements": [
+      {
+        "description": "",
+        "id": "controlar-a-saída-e-o-retorno-à-lista;confirmar-a-saída-sem-duplicar-mensagens",
+        "keyword": "Esquema do Cenário",
+        "line": 21,
+        "name": "Confirmar a saída sem duplicar mensagens",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que Ana é uma assinante ativa",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 13,
+            "name": "que Ana já solicitou o descadastro 0 vezes",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:178"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 14,
+            "name": "Ana utiliza o link de descadastro",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:181"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 15,
+            "name": "Ana fica \"inativa\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 16,
+            "name": "existe exatamente 1 e-mail de confirmação de descadastro para Ana",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:183"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 17,
+            "name": "todos os e-mails gerados contêm link de descadastro",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21916
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US04",
+            "line": 2
+          },
+          {
+            "name": "@RN06",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 11
+          },
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@CA04_1",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "controlar-a-saída-e-o-retorno-à-lista;confirmar-a-saída-sem-duplicar-mensagens",
+        "keyword": "Esquema do Cenário",
+        "line": 22,
+        "name": "Confirmar a saída sem duplicar mensagens",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que Ana é uma assinante ativa",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 13,
+            "name": "que Ana já solicitou o descadastro 1 vezes",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:178"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 14,
+            "name": "Ana utiliza o link de descadastro",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:181"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 15,
+            "name": "Ana fica \"inativa\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14207
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 16,
+            "name": "existe exatamente 1 e-mail de confirmação de descadastro para Ana",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:183"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 17,
+            "name": "todos os e-mails gerados contêm link de descadastro",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3874
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US04",
+            "line": 2
+          },
+          {
+            "name": "@RN06",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 11
+          },
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@CA04_1",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "controlar-a-saída-e-o-retorno-à-lista;respeitar-a-saída-depois-que-o-envio-já-foi-agendado",
+        "keyword": "Cenário",
+        "line": 25,
+        "name": "Respeitar a saída depois que o envio já foi agendado",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que Ana é uma assinante ativa",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 26,
+            "name": "que uma edição aprovada está agendada para Ana e Bruno",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:186"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 27,
+            "name": "Ana se descadastra antes do horário marcado",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:192"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 28,
+            "name": "chega o horário programado para o disparo",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:158"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 29,
+            "name": "Ana recebe 0 newsletters e Bruno recebe 1 newsletter",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:196"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20165
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US04",
+            "line": 2
+          },
+          {
+            "name": "@RN06",
+            "line": 2
+          },
+          {
+            "name": "@alternativa",
+            "line": 24
+          },
+          {
+            "name": "@DEC06",
+            "line": 24
+          },
+          {
+            "name": "@CA04_2",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "controlar-a-saída-e-o-retorno-à-lista;solicitar-retorno-sem-reativar-a-assinatura",
+        "keyword": "Cenário",
+        "line": 32,
+        "name": "Solicitar retorno sem reativar a assinatura",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que Ana é uma assinante ativa",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 33,
+            "name": "que Ana está descadastrada",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:200"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 34,
+            "name": "Ana solicita o retorno à lista",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:201"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 35,
+            "name": "Ana fica \"inativa\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38584
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 36,
+            "name": "existe um e-mail de retorno com link de confirmação válido por 48 horas",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:202"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 37,
+            "name": "todos os e-mails gerados contêm link de descadastro",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:173"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41417
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US04",
+            "line": 2
+          },
+          {
+            "name": "@RN06",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 31
+          },
+          {
+            "name": "@CA04_3",
+            "line": 31
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "controlar-a-saída-e-o-retorno-à-lista;confirmar-retorno-dentro-da-validade-de-48-horas",
+        "keyword": "Esquema do Cenário",
+        "line": 48,
+        "name": "Confirmar retorno dentro da validade de 48 horas",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que Ana é uma assinante ativa",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 41,
+            "name": "que Ana está descadastrada e solicitou retorno há 0 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:208"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 42,
+            "name": "Ana confirma o link de retorno recebido",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:213"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 43,
+            "name": "a mensagem é \"Retorno à lista confirmado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 44,
+            "name": "Ana fica \"ativa\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6750
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US04",
+            "line": 2
+          },
+          {
+            "name": "@RN06",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 39
+          },
+          {
+            "name": "@excecao",
+            "line": 39
+          },
+          {
+            "name": "@limite",
+            "line": 39
+          },
+          {
+            "name": "@CA04_4",
+            "line": 39
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "controlar-a-saída-e-o-retorno-à-lista;confirmar-retorno-dentro-da-validade-de-48-horas",
+        "keyword": "Esquema do Cenário",
+        "line": 49,
+        "name": "Confirmar retorno dentro da validade de 48 horas",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que Ana é uma assinante ativa",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 41,
+            "name": "que Ana está descadastrada e solicitou retorno há 172799 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:208"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 42,
+            "name": "Ana confirma o link de retorno recebido",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:213"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 43,
+            "name": "a mensagem é \"Retorno à lista confirmado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 44,
+            "name": "Ana fica \"ativa\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11082
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US04",
+            "line": 2
+          },
+          {
+            "name": "@RN06",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 39
+          },
+          {
+            "name": "@excecao",
+            "line": 39
+          },
+          {
+            "name": "@limite",
+            "line": 39
+          },
+          {
+            "name": "@CA04_4",
+            "line": 39
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "controlar-a-saída-e-o-retorno-à-lista;confirmar-retorno-dentro-da-validade-de-48-horas",
+        "keyword": "Esquema do Cenário",
+        "line": 50,
+        "name": "Confirmar retorno dentro da validade de 48 horas",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que Ana é uma assinante ativa",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 41,
+            "name": "que Ana está descadastrada e solicitou retorno há 172800 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:208"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 42,
+            "name": "Ana confirma o link de retorno recebido",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:213"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 43,
+            "name": "a mensagem é \"Link de confirmação expirado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 44,
+            "name": "Ana fica \"inativa\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7084
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US04",
+            "line": 2
+          },
+          {
+            "name": "@RN06",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 39
+          },
+          {
+            "name": "@excecao",
+            "line": 39
+          },
+          {
+            "name": "@limite",
+            "line": 39
+          },
+          {
+            "name": "@CA04_4",
+            "line": 39
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "controlar-a-saída-e-o-retorno-à-lista;confirmar-retorno-dentro-da-validade-de-48-horas",
+        "keyword": "Esquema do Cenário",
+        "line": 51,
+        "name": "Confirmar retorno dentro da validade de 48 horas",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que Ana é uma assinante ativa",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 41,
+            "name": "que Ana está descadastrada e solicitou retorno há 172801 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:208"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 42,
+            "name": "Ana confirma o link de retorno recebido",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:213"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 52000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 43,
+            "name": "a mensagem é \"Link de confirmação expirado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 44,
+            "name": "Ana fica \"inativa\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16209
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US04",
+            "line": 2
+          },
+          {
+            "name": "@RN06",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 39
+          },
+          {
+            "name": "@excecao",
+            "line": 39
+          },
+          {
+            "name": "@limite",
+            "line": 39
+          },
+          {
+            "name": "@CA04_4",
+            "line": 39
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "controlar-a-saída-e-o-retorno-à-lista;recusar-link-sem-autorização-vigente",
+        "keyword": "Esquema do Cenário",
+        "line": 62,
+        "name": "Recusar link sem autorização vigente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que Ana é uma assinante ativa",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 55,
+            "name": "que o link de retorno de Ana é \"desconhecido\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:214"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 56,
+            "name": "Ana confirma o link de retorno recebido",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:213"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4334
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 57,
+            "name": "a mensagem é \"Link de confirmação inválido\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 58,
+            "name": "Ana fica \"inativa\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6708
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US04",
+            "line": 2
+          },
+          {
+            "name": "@RN06",
+            "line": 2
+          },
+          {
+            "name": "@excecao",
+            "line": 53
+          },
+          {
+            "name": "@CA04_5",
+            "line": 53
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "controlar-a-saída-e-o-retorno-à-lista;recusar-link-sem-autorização-vigente",
+        "keyword": "Esquema do Cenário",
+        "line": 63,
+        "name": "Recusar link sem autorização vigente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que Ana é uma assinante ativa",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 55,
+            "name": "que o link de retorno de Ana é \"utilizado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:214"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 56,
+            "name": "Ana confirma o link de retorno recebido",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:213"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 57,
+            "name": "a mensagem é \"Link de confirmação inválido\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 58,
+            "name": "Ana fica \"ativa\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6249
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US04",
+            "line": 2
+          },
+          {
+            "name": "@RN06",
+            "line": 2
+          },
+          {
+            "name": "@excecao",
+            "line": 53
+          },
+          {
+            "name": "@CA04_5",
+            "line": 53
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "controlar-a-saída-e-o-retorno-à-lista;recusar-link-sem-autorização-vigente",
+        "keyword": "Esquema do Cenário",
+        "line": 64,
+        "name": "Recusar link sem autorização vigente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 9,
+            "name": "que Ana é uma assinante ativa",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:177"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 55,
+            "name": "que o link de retorno de Ana é \"substituído\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:214"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 56,
+            "name": "Ana confirma o link de retorno recebido",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:213"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 57,
+            "name": "a mensagem é \"Link de confirmação inválido\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6165
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 58,
+            "name": "Ana fica \"inativa\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:182"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12584
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US04",
+            "line": 2
+          },
+          {
+            "name": "@RN06",
+            "line": 2
+          },
+          {
+            "name": "@excecao",
+            "line": 53
+          },
+          {
+            "name": "@CA04_5",
+            "line": 53
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "controlar-a-saída-e-o-retorno-à-lista",
+    "line": 3,
+    "keyword": "Funcionalidade",
+    "name": "Controlar a saída e o retorno à lista",
+    "tags": [
+      {
+        "name": "@US04",
+        "line": 2
+      },
+      {
+        "name": "@RN06",
+        "line": 2
+      }
+    ],
+    "uri": "features/us04-consentimento.feature"
+  }
+]
