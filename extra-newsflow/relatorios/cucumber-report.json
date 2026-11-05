@@ -1,0 +1,1704 @@
+[
+  {
+    "description": "  A programação de uma edição exige revisão independente do conteúdo atual.",
+    "elements": [
+      {
+        "description": "",
+        "id": "validar-a-aprovação-editorial;aprovar-conteúdo-de-outra-pessoa",
+        "keyword": "Cenário",
+        "line": 11,
+        "name": "Aprovar conteúdo de outra pessoa",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que existe uma edição de Ana com o texto \"Novidades de novembro\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 169667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "o segmento \"Clientes Premium\" contém os assinantes \"Ana, Bruno\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 12,
+            "name": "Bruno avalia a edição como revisor",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 13,
+            "name": "a mensagem é \"Edição aprovada\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28707
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 14,
+            "name": "a edição fica aprovada por Bruno",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 271916
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@F01",
+            "line": 2
+          },
+          {
+            "name": "@RN02",
+            "line": 2
+          },
+          {
+            "name": "@CA01",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validar-a-aprovação-editorial;recusar-aprovação-pelo-próprio-autor",
+        "keyword": "Cenário",
+        "line": 17,
+        "name": "Recusar aprovação pelo próprio autor",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que existe uma edição de Ana com o texto \"Novidades de novembro\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "o segmento \"Clientes Premium\" contém os assinantes \"Ana, Bruno\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 18,
+            "name": "Ana avalia a edição como revisora",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 19,
+            "name": "a mensagem é \"Autor não pode aprovar a própria edição\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 20,
+            "name": "a edição continua sem aprovação",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20875
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@F01",
+            "line": 2
+          },
+          {
+            "name": "@RN02",
+            "line": 2
+          },
+          {
+            "name": "@CA01",
+            "line": 2
+          },
+          {
+            "name": "@excecao",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validar-a-aprovação-editorial;recusar-agendamento-de-conteúdo-não-aprovado",
+        "keyword": "Cenário",
+        "line": 23,
+        "name": "Recusar agendamento de conteúdo não aprovado",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que existe uma edição de Ana com o texto \"Novidades de novembro\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "o segmento \"Clientes Premium\" contém os assinantes \"Ana, Bruno\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16208
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 24,
+            "name": "a gestora agenda o envio para daqui a 1800 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 25,
+            "name": "a mensagem é \"Edição precisa de aprovação vigente\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12792
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 26,
+            "name": "nenhum disparo é criado",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14166
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@F01",
+            "line": 2
+          },
+          {
+            "name": "@RN02",
+            "line": 2
+          },
+          {
+            "name": "@CA01",
+            "line": 2
+          },
+          {
+            "name": "@excecao",
+            "line": 22
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "validar-a-aprovação-editorial;exigir-nova-aprovação-depois-de-alterar-o-conteúdo",
+        "keyword": "Cenário",
+        "line": 29,
+        "name": "Exigir nova aprovação depois de alterar o conteúdo",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que existe uma edição de Ana com o texto \"Novidades de novembro\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "o segmento \"Clientes Premium\" contém os assinantes \"Ana, Bruno\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16833
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 30,
+            "name": "que Bruno aprovou a edição",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 31,
+            "name": "Ana alterou o texto para \"Novidades corrigidas\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23209
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 32,
+            "name": "a gestora agenda o envio para daqui a 1800 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 33,
+            "name": "a mensagem é \"Edição precisa de aprovação vigente\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8292
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 34,
+            "name": "nenhum disparo é criado",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4958
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@F01",
+            "line": 2
+          },
+          {
+            "name": "@RN02",
+            "line": 2
+          },
+          {
+            "name": "@CA01",
+            "line": 2
+          },
+          {
+            "name": "@alternativa",
+            "line": 28
+          },
+          {
+            "name": "@excecao",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "validar-a-aprovação-editorial",
+    "line": 3,
+    "keyword": "Funcionalidade",
+    "name": "Validar a aprovação editorial",
+    "tags": [
+      {
+        "name": "@US01",
+        "line": 2
+      },
+      {
+        "name": "@F01",
+        "line": 2
+      },
+      {
+        "name": "@RN02",
+        "line": 2
+      },
+      {
+        "name": "@CA01",
+        "line": 2
+      }
+    ],
+    "uri": "features/f01-aprovacao.feature"
+  },
+  {
+    "description": "  A gestora programa, reagenda e cancela o disparo dentro dos limites definidos.",
+    "elements": [
+      {
+        "description": "",
+        "id": "controlar-os-prazos-do-agendamento;agendar-exatamente-quinze-minutos-à-frente",
+        "keyword": "Cenário",
+        "line": 13,
+        "name": "Agendar exatamente quinze minutos à frente",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que existe uma edição de Ana com o texto \"Novidades de novembro\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "Bruno aprovou a edição",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "o segmento \"Clientes Premium\" contém os assinantes \"Ana, Bruno\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o horário atual em São Paulo é \"2026-11-05T09:00:00-03:00\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 14,
+            "name": "a gestora agenda o envio para daqui a 900 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 15,
+            "name": "a mensagem é \"Envio agendado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 16,
+            "name": "o disparo está agendado para \"05/11/2026 09:15:00\" em São Paulo",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3719749
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@F02",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 12
+          },
+          {
+            "name": "@limite",
+            "line": 12
+          },
+          {
+            "name": "@CA02",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "controlar-os-prazos-do-agendamento;recusar-antecedência-de-quatorze-minutos-e-cinquenta-e-nove-segundos",
+        "keyword": "Cenário",
+        "line": 19,
+        "name": "Recusar antecedência de quatorze minutos e cinquenta e nove segundos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que existe uma edição de Ana com o texto \"Novidades de novembro\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15291
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "Bruno aprovou a edição",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "o segmento \"Clientes Premium\" contém os assinantes \"Ana, Bruno\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10582
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o horário atual em São Paulo é \"2026-11-05T09:00:00-03:00\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8167
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 20,
+            "name": "a gestora agenda o envio para daqui a 899 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 21,
+            "name": "a mensagem é \"Antecedência mínima de 15 minutos\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6791
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 22,
+            "name": "nenhum disparo é criado",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3833
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@F02",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@excecao",
+            "line": 18
+          },
+          {
+            "name": "@limite",
+            "line": 18
+          },
+          {
+            "name": "@CA02",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "controlar-os-prazos-do-agendamento;preservar-a-programação-após-a-terceira-tentativa-de-reagendar",
+        "keyword": "Cenário",
+        "line": 25,
+        "name": "Preservar a programação após a terceira tentativa de reagendar",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que existe uma edição de Ana com o texto \"Novidades de novembro\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "Bruno aprovou a edição",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "o segmento \"Clientes Premium\" contém os assinantes \"Ana, Bruno\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8040
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o horário atual em São Paulo é \"2026-11-05T09:00:00-03:00\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 26,
+            "name": "que existe um disparo agendado para daqui a 3600 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 27,
+            "name": "a gestora já o reagendou para \"2026-11-05T10:30:00-03:00\" e depois para \"2026-11-05T11:00:00-03:00\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 35124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 28,
+            "name": "a gestora solicita reagendamento para \"2026-11-05T11:30:00-03:00\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 29,
+            "name": "a mensagem é \"Limite de 2 reagendamentos atingido\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 30,
+            "name": "o disparo mantém 2 reagendamentos e o horário \"05/11/2026 11:00:00\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:64"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@F02",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@excecao",
+            "line": 24
+          },
+          {
+            "name": "@limite",
+            "line": 24
+          },
+          {
+            "name": "@CA03",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "controlar-os-prazos-do-agendamento;cancelar-exatamente-cinco-minutos-antes",
+        "keyword": "Cenário",
+        "line": 33,
+        "name": "Cancelar exatamente cinco minutos antes",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que existe uma edição de Ana com o texto \"Novidades de novembro\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6333
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "Bruno aprovou a edição",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "o segmento \"Clientes Premium\" contém os assinantes \"Ana, Bruno\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o horário atual em São Paulo é \"2026-11-05T09:00:00-03:00\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 34,
+            "name": "que existe um disparo agendado para daqui a 3600 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 35,
+            "name": "faltam 300 segundos para o envio",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11417
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 36,
+            "name": "a gestora cancela o disparo",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 37,
+            "name": "a mensagem é \"Agendamento cancelado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7541
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 38,
+            "name": "a situação do disparo é \"cancelado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@F02",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 32
+          },
+          {
+            "name": "@limite",
+            "line": 32
+          },
+          {
+            "name": "@CA04",
+            "line": 32
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "controlar-os-prazos-do-agendamento;recusar-cancelamento-a-quatro-minutos-e-cinquenta-e-nove-segundos",
+        "keyword": "Cenário",
+        "line": 41,
+        "name": "Recusar cancelamento a quatro minutos e cinquenta e nove segundos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que existe uma edição de Ana com o texto \"Novidades de novembro\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "Bruno aprovou a edição",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6084
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 9,
+            "name": "o segmento \"Clientes Premium\" contém os assinantes \"Ana, Bruno\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 10,
+            "name": "o horário atual em São Paulo é \"2026-11-05T09:00:00-03:00\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9709
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 42,
+            "name": "que existe um disparo agendado para daqui a 3600 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9082
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 43,
+            "name": "faltam 299 segundos para o envio",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 44,
+            "name": "a gestora cancela o disparo",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8415
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 45,
+            "name": "a mensagem é \"Cancelamento exige ao menos 5 minutos de antecedência\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6250
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 46,
+            "name": "a situação do disparo é \"agendado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:68"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7083
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@F02",
+            "line": 2
+          },
+          {
+            "name": "@RN03",
+            "line": 2
+          },
+          {
+            "name": "@excecao",
+            "line": 40
+          },
+          {
+            "name": "@limite",
+            "line": 40
+          },
+          {
+            "name": "@CA04",
+            "line": 40
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "controlar-os-prazos-do-agendamento",
+    "line": 3,
+    "keyword": "Funcionalidade",
+    "name": "Controlar os prazos do agendamento",
+    "tags": [
+      {
+        "name": "@US01",
+        "line": 2
+      },
+      {
+        "name": "@F02",
+        "line": 2
+      },
+      {
+        "name": "@RN03",
+        "line": 2
+      }
+    ],
+    "uri": "features/f02-agendamento.feature"
+  },
+  {
+    "description": "  A edição alcança o público escolhido sem repetir e-mails por sobreposição.",
+    "elements": [
+      {
+        "description": "",
+        "id": "selecionar-o-público-do-disparo;agendar-para-cinco-segmentos-com-assinantes",
+        "keyword": "Cenário",
+        "line": 11,
+        "name": "Agendar para cinco segmentos com assinantes",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que existe uma edição de Ana com o texto \"Novidades de novembro\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "Bruno aprovou a edição",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 12,
+            "name": "que a gestora escolheu 5 segmentos distintos com 1 assinante cada",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 13,
+            "name": "a gestora agenda o envio para daqui a 1800 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9040
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 14,
+            "name": "a mensagem é \"Envio agendado\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 15,
+            "name": "o disparo inclui 5 segmentos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8667
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@F03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@CA05",
+            "line": 2
+          },
+          {
+            "name": "@feliz",
+            "line": 10
+          },
+          {
+            "name": "@limite",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "selecionar-o-público-do-disparo;recusar-a-escolha-de-seis-segmentos",
+        "keyword": "Cenário",
+        "line": 18,
+        "name": "Recusar a escolha de seis segmentos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que existe uma edição de Ana com o texto \"Novidades de novembro\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5667
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "Bruno aprovou a edição",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5209
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 19,
+            "name": "que a gestora escolheu 6 segmentos distintos com 1 assinante cada",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 20,
+            "name": "a gestora agenda o envio para daqui a 1800 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 21,
+            "name": "a mensagem é \"Escolha de 1 a 5 segmentos\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 22,
+            "name": "nenhum disparo é criado",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3292
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@F03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@CA05",
+            "line": 2
+          },
+          {
+            "name": "@excecao",
+            "line": 17
+          },
+          {
+            "name": "@limite",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "selecionar-o-público-do-disparo;recusar-um-segmento-vazio-mesmo-quando-outro-tem-assinantes",
+        "keyword": "Cenário",
+        "line": 25,
+        "name": "Recusar um segmento vazio mesmo quando outro tem assinantes",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que existe uma edição de Ana com o texto \"Novidades de novembro\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "Bruno aprovou a edição",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 26,
+            "name": "que o segmento \"Clientes Premium\" contém os assinantes \"Ana, Bruno\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 27,
+            "name": "o segmento \"Interessados em eventos\" está vazio",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 28,
+            "name": "a gestora agenda o envio para daqui a 1800 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 29,
+            "name": "a mensagem é \"Segmento sem assinantes\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:51"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 30,
+            "name": "nenhum disparo é criado",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@F03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@CA05",
+            "line": 2
+          },
+          {
+            "name": "@excecao",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "selecionar-o-público-do-disparo;entregar-uma-única-mensagem-ao-assinante-presente-em-dois-segmentos",
+        "keyword": "Cenário",
+        "line": 33,
+        "name": "Entregar uma única mensagem ao assinante presente em dois segmentos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 7,
+            "name": "que existe uma edição de Ana com o texto \"Novidades de novembro\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "Bruno aprovou a edição",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 34,
+            "name": "que o segmento \"Clientes Premium\" contém os assinantes \"Ana, Bruno\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18874
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 35,
+            "name": "o segmento \"Interessados em eventos\" contém os assinantes \"Ana, Carla\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 36,
+            "name": "existe um disparo agendado para daqui a 1800 segundos",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 37,
+            "name": "chega o horário do disparo",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 38,
+            "name": "Ana, Bruno e Carla recebem exatamente 1 e-mail cada",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18542
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 39,
+            "name": "existem 3 e-mails com o texto \"Novidades de novembro\"",
+            "match": {
+              "location": "features/step_definitions/newsflow.steps.js:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17167
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@US01",
+            "line": 2
+          },
+          {
+            "name": "@F03",
+            "line": 2
+          },
+          {
+            "name": "@RN04",
+            "line": 2
+          },
+          {
+            "name": "@CA05",
+            "line": 2
+          },
+          {
+            "name": "@alternativa",
+            "line": 32
+          },
+          {
+            "name": "@feliz",
+            "line": 32
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "selecionar-o-público-do-disparo",
+    "line": 3,
+    "keyword": "Funcionalidade",
+    "name": "Selecionar o público do disparo",
+    "tags": [
+      {
+        "name": "@US01",
+        "line": 2
+      },
+      {
+        "name": "@F03",
+        "line": 2
+      },
+      {
+        "name": "@RN04",
+        "line": 2
+      },
+      {
+        "name": "@CA05",
+        "line": 2
+      }
+    ],
+    "uri": "features/f03-publico.feature"
+  }
+]

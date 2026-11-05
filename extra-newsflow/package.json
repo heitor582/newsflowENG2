@@ -1,0 +1,17 @@
+{
+  "name": "newsflow-bdd-extra",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Uma história, três funcionalidades e cenários executáveis do NewsFlow",
+  "engines": {
+    "node": ">=22 <25"
+  },
+  "scripts": {
+    "test": "cucumber-js",
+    "test:dry": "cucumber-js --profile verificacao --dry-run",
+    "test:parallel": "cucumber-js --profile verificacao --parallel 2"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "12.2.0"
+  }
+}
