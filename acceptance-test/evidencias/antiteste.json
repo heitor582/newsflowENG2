@@ -1,0 +1,152 @@
+{
+  "config": {
+    "configFile": "/Users/heitorvieira/Desktop/cctrab/eng2/atv5/teste de aceitacao/playwright.config.js",
+    "rootDir": "/Users/heitorvieira/Desktop/cctrab/eng2/atv5/teste de aceitacao/tests",
+    "forbidOnly": true,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/heitorvieira/Desktop/cctrab/eng2/atv5/teste de aceitacao/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/heitorvieira/Desktop/cctrab/eng2/atv5/teste de aceitacao/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 15000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 5,
+    "webServer": {
+      "command": "node server.js",
+      "url": "http://127.0.0.1:5173",
+      "reuseExistingServer": false,
+      "timeout": 15000
+    }
+  },
+  "suites": [
+    {
+      "title": "aceitacao.spec.js",
+      "file": "aceitacao.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "C2 - recusa autoaprovação e mantém a edição como rascunho",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 15000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "failed",
+                  "duration": 5193,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('alert')\nExpected: \u001b[32m\"Autor não pode avaliar a própria edição\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('alert')\u001b[22m\n\u001b[2m    9 × locator resolved to <p id=\"erro\" role=\"alert\"></p>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('alert')\nExpected: \u001b[32m\"Autor não pode avaliar a própria edição\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('alert')\u001b[22m\n\u001b[2m    9 × locator resolved to <p id=\"erro\" role=\"alert\"></p>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\n    at /Users/heitorvieira/Desktop/cctrab/eng2/atv5/teste de aceitacao/tests/aceitacao.spec.js:29:41",
+                    "location": {
+                      "file": "/Users/heitorvieira/Desktop/cctrab/eng2/atv5/teste de aceitacao/tests/aceitacao.spec.js",
+                      "column": 41,
+                      "line": 29
+                    },
+                    "snippet": "  27 |   await criarRascunho(page);\n  28 |   await page.getByRole('button', { name: 'Aprovar', exact: true }).click();\n> 29 |   await expect(page.getByRole('alert')).toHaveText('Autor não pode avaliar a própria edição');\n     |                                         ^\n  30 |   await expect(page.getByText('Situação: Rascunho', { exact: true })).toBeVisible();\n  31 |   await expect(page.getByText('1 edição(ões) · 0 aprovada(s)', { exact: true })).toBeVisible();\n  32 |   await expect(page.getByRole('listitem')).toHaveCount(1);"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/Users/heitorvieira/Desktop/cctrab/eng2/atv5/teste de aceitacao/tests/aceitacao.spec.js",
+                        "column": 41,
+                        "line": 29
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator:  getByRole('alert')\nExpected: \u001b[32m\"Autor não pode avaliar a própria edição\"\u001b[39m\nReceived: \u001b[31m\"\"\u001b[39m\nTimeout:  5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveText\" with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('alert')\u001b[22m\n\u001b[2m    9 × locator resolved to <p id=\"erro\" role=\"alert\"></p>\u001b[22m\n\u001b[2m      - unexpected value \"\"\u001b[22m\n\n\n  27 |   await criarRascunho(page);\n  28 |   await page.getByRole('button', { name: 'Aprovar', exact: true }).click();\n> 29 |   await expect(page.getByRole('alert')).toHaveText('Autor não pode avaliar a própria edição');\n     |                                         ^\n  30 |   await expect(page.getByText('Situação: Rascunho', { exact: true })).toBeVisible();\n  31 |   await expect(page.getByText('1 edição(ões) · 0 aprovada(s)', { exact: true })).toBeVisible();\n  32 |   await expect(page.getByRole('listitem')).toHaveCount(1);\n    at /Users/heitorvieira/Desktop/cctrab/eng2/atv5/teste de aceitacao/tests/aceitacao.spec.js:29:41"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-10T14:57:34.266Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/heitorvieira/Desktop/cctrab/eng2/atv5/teste de aceitacao/test-results/aceitacao-C2---recusa-auto-78bca-ntém-a-edição-como-rascunho-chromium/test-failed-1.png"
+                    },
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/heitorvieira/Desktop/cctrab/eng2/atv5/teste de aceitacao/test-results/aceitacao-C2---recusa-auto-78bca-ntém-a-edição-como-rascunho-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/Users/heitorvieira/Desktop/cctrab/eng2/atv5/teste de aceitacao/test-results/aceitacao-C2---recusa-auto-78bca-ntém-a-edição-como-rascunho-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/Users/heitorvieira/Desktop/cctrab/eng2/atv5/teste de aceitacao/tests/aceitacao.spec.js",
+                    "column": 41,
+                    "line": 29
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "d625349bb19d6510b577-5c941617d0f2f2338473",
+          "file": "aceitacao.spec.js",
+          "line": 26,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-10T14:57:33.708Z",
+    "duration": 6083.625,
+    "expected": 0,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}

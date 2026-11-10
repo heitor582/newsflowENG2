@@ -1,0 +1,13 @@
+{
+  "name": "newsflow-aceitacao",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "playwright test",
+    "test:antiteste": "node scripts/antiteste.js",
+    "report": "playwright show-report"
+  },
+  "engines": { "node": ">=22" },
+  "devDependencies": { "@playwright/test": "1.58.2" }
+}

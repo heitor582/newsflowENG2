@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NewsFlow | Edições</title><link rel="stylesheet" href="/style.css">
+  <script src="/dominio.js" defer></script><script src="/app.js" defer></script>
+</head>
+<body>
+<main>
+  <header><p class="eyebrow">VÉRTICE · NEWSLETTERS</p><h1>NewsFlow</h1><p>Prepare seu conteúdo e encaminhe para revisão.</p></header>
+  <aside><label for="pessoa">Pessoa responsável</label><select id="pessoa"><option value="ana">Ana — autora e revisora</option><option value="bruno">Bruno — revisor</option></select><small>Demonstração local: escolha quem realiza cada ação.</small></aside>
+  <section aria-labelledby="editor"><h2 id="editor">Nova edição</h2>
+    <form id="formulario">
+      <label for="titulo">Título</label><input id="titulo" required maxlength="160">
+      <label for="corpo">Conteúdo</label><textarea id="corpo" required rows="5"></textarea>
+      <button type="submit" id="salvar">Criar rascunho</button>
+      <button type="button" id="cancelar" hidden>Cancelar edição</button>
+    </form>
+  </section>
+  <p role="status" id="sucesso"></p><p role="alert" id="erro"></p>
+  <section aria-labelledby="edicoes"><h2 id="edicoes">Suas edições</h2><p id="resumo"></p><p id="vazio">Nenhuma edição criada.</p><ul id="lista" aria-label="Edições"></ul></section>
+  <footer>Os rascunhos ficam salvos neste navegador.</footer>
+</main>
+</body></html>

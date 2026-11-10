@@ -1,0 +1,20 @@
+
+Running 3 tests using 3 workers
+
+  ✓  1 [chromium] › tests/aceitacao.spec.js:26:1 › C2 - recusa autoaprovação e mantém a edição como rascunho (287ms)
+  ✓  3 [chromium] › tests/aceitacao.spec.js:13:1 › C1 - cria uma edição e recebe aprovação de outro revisor (312ms)
+  ✓  2 [chromium] › tests/aceitacao.spec.js:36:1 › C3 - editar invalida a aprovação e mantém conteúdo e estado após recarregar (352ms)
+
+  3 passed (1.4s)
+(node:3522) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3523) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3524) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3522) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3523) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3524) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

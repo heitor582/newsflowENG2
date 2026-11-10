@@ -1,0 +1,10 @@
+
+Running 1 test using 1 worker
+
+  ✓  1 [chromium] › tests/aceitacao.spec.js:36:1 › C3 - editar invalida a aprovação e mantém conteúdo e estado após recarregar (294ms)
+
+  1 passed (1.1s)
+(node:3466) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3466) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)

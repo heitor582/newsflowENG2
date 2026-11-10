@@ -1,0 +1,12 @@
+# Dependências e resultados temporários
+node_modules/
+test-results/
+
+# Arquivos locais (inclusive ao entregar esta pasta separadamente)
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
+
+# playwright-report/ e evidencias/ fazem parte da entrega.
